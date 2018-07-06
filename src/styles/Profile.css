@@ -1,0 +1,31 @@
+.profile {
+  width: 200px;
+  background-color: #cccccc;
+  padding: 10px;
+}
+
+.player-name {
+  font-size: 1.8em;
+  font-weight: bold;
+}
+
+.profile {
+  font-size: 0.8em;
+}
+
+.profile-entry {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  padding: 10px 10px 10px;
+}
+
+.profile-entry-left {
+  text-align: left;
+  font-weight: bold;
+}
+
+.profile-entry-right {
+  text-align: right;
+  flex: 1;
+}

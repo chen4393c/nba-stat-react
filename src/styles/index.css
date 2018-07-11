@@ -8,3 +8,8 @@ body {
 @import "TopNavBar.css";
 @import "Main.css";
 @import "Profile.css";
+@import "ShotChart.css";
+
+.shot-chart {
+  width: 100px;
+}

@@ -1,4 +1,5 @@
 .main {
+  display: flex;
   width: 750px;
   border: solid 3px #ccc;
   border-radius: 10px;

@@ -20,6 +20,7 @@ export default class Profile extends Component {
 
         <img
           className="profile-pic"
+          alt="profile"
           src={`${PROFILE_PIC_URL_PREFIX}${playerId}.png`}
         />
 
@@ -30,7 +31,7 @@ export default class Profile extends Component {
 
         <img
           className="team-logo"
-          alt="image"
+          alt="team logo"
           src={`${TEAM_LOGO_URL_PREFIX}${teamAbbreviation}_logo.svg`}
         />
 

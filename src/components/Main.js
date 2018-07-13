@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import Profile from "./Profile"
 import nba from 'nba';
-import {ShotChart} from "./ShotChart"
+import {DataViewContainer} from "./DataViewContainer"
 
 export default class Main extends Component {
   state = {
@@ -28,11 +28,8 @@ export default class Main extends Component {
     return (
       <div className="main">
         <Profile playerInfo={this.state.playerInfo}/>
-        <ShotChart
-          playerId={this.state.playerId}
-          minCount={2}
-          displayTooltip={true}
-          chartType="hexbin"
+        <DataViewContainer
+          playerId={this.state.playerInfo.playerId}
         />
       </div>
     );

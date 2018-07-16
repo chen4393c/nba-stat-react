@@ -1,4 +1,8 @@
 .main {
+
+}
+
+.player {
   display: flex;
   width: 750px;
   border: solid 3px #ccc;

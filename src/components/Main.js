@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import Profile from "./Profile"
-import nba from 'nba';
+import nba from '../nba';
 import {DataViewContainer} from "./DataViewContainer"
 import {SearchBar} from "./SearchBar"
 import {DEFAULT_PLAYER_INFO} from "../constants"
